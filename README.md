@@ -58,17 +58,18 @@ Models are evaluated on MAE, RMSE, and MAPE.
 
 ## Project Structure
 
+```
 outbreak-forecasting/
-├── app.py # Streamlit dashboard entry point
+├── app.py                    # Streamlit dashboard entry point
 ├── src/
-│ ├── data_generator.py # Synthetic DHIS2 data with outbreaks and weather
-│ ├── seir_model.py # SEIR ODE model, R0 estimation, parameter fitting
-│ ├── forecasting.py # Prophet, XGBoost, ARIMA with evaluation metrics
-│ └── anomaly_detection.py # CUSUM, moving average, z-score alert methods
-├── data/ # Generated surveillance CSV
-├── outputs/ # Model outputs and plots
+│   ├── data_generator.py     # Synthetic DHIS2 data with outbreaks and weather
+│   ├── seir_model.py         # SEIR ODE model, R0 estimation, parameter fitting
+│   ├── forecasting.py        # Prophet, XGBoost, ARIMA with evaluation metrics
+│   └── anomaly_detection.py  # CUSUM, moving average, z-score alert methods
+├── data/                     # Generated surveillance CSV
+├── outputs/                  # Model outputs and plots
 └── requirements.txt
-
+```
 
 ---
 
