@@ -1,4 +1,4 @@
- AI-Enhanced Outbreak Detection & Forecasting
+## AI-Enhanced Outbreak Detection & Forecasting
 
 A Kenya MOH scenario planning dashboard for disease surveillance, outbreak detection, and forecasting using SEIR compartmental models and machine learning.
 
